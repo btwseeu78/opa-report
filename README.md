@@ -2,7 +2,7 @@
 ### Running the code
 `` go get . ``
 `` go mod tidy ``
-`` go run main.go get`
+`` go run main.go get``
 
 ### building the binary
 The codes used cobra to create acmmand line tool.
