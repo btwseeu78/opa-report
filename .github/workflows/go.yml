@@ -29,6 +29,12 @@ jobs:
         # Artifact name
         name: opa-report
         path: ./opa-report
+    - name: go-semantic-release
+      uses: go-semantic-release/action@v1.21.0
+      with:
+        update-file: ./opa-report
+        # optional path to the semantic-release binary
+        bin: ./opa-report
           
 
 
