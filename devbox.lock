@@ -1,6 +1,54 @@
 {
   "lockfile_version": "1",
   "packages": {
+    "cobra-cli@latest": {
+      "last_modified": "2024-07-20T09:11:00Z",
+      "resolved": "github:NixOS/nixpkgs/6e14bbce7bea6c4efd7adfa88a40dac750d80100#cobra-cli",
+      "source": "devbox-search",
+      "version": "1.3.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/bnrwqdm676p273hr4gah58dvlanr051c-cobra-cli-1.3.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/bnrwqdm676p273hr4gah58dvlanr051c-cobra-cli-1.3.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/cdnaqf0n8jvzrhn8147fk9dyr1w5bq1m-cobra-cli-1.3.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/cdnaqf0n8jvzrhn8147fk9dyr1w5bq1m-cobra-cli-1.3.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/cpllbqv6wdhcx32lc06wkp98l7k3089d-cobra-cli-1.3.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/cpllbqv6wdhcx32lc06wkp98l7k3089d-cobra-cli-1.3.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/5css54ypcy2krzkz8m5n5ja392r8aq4h-cobra-cli-1.3.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/5css54ypcy2krzkz8m5n5ja392r8aq4h-cobra-cli-1.3.0"
+        }
+      }
+    },
     "gh@2.50.0": {
       "last_modified": "2024-06-12T20:55:33Z",
       "resolved": "github:NixOS/nixpkgs/a9858885e197f984d92d7fe64e9fff6b2e488d40#gh",
