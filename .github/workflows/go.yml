@@ -28,6 +28,7 @@ jobs:
       with:
         # Artifact name
         name: opa-report
+        path: ./opa-report
           
 
 
